@@ -2,7 +2,7 @@ pipeline {
     agent { label 'ecs-slave' }
 
     environment {
-        AWS_ACCOUNT_ID = 'your-account-id'  
+        AWS_ACCOUNT_ID = '596059883112'  
         AWS_REGION     = 'us-east-1'        
         CLUSTER_NAME   = 'Three-tier-App' 
         
